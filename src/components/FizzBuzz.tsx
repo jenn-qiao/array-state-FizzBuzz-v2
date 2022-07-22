@@ -3,7 +3,6 @@ import { useState } from "react";
 export default function FizzBuzz(): JSX.Element {
   const [numberFromCurrentRender, queueRerenderWithNewNumber] = useState(1);
 
-
   const [storedValueFromCurrentRender, queueRerenderWithNewStoredValue] =
     useState<(string | number)[]>([]);
 
@@ -59,4 +58,3 @@ export default function FizzBuzz(): JSX.Element {
 }
 
 //make change
-
